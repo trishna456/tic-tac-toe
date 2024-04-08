@@ -22,48 +22,44 @@ To run this tic-tac-toe game locally, follow these steps:
 git clone https://github.com/your-username/react-tic-tac-toe.git
 ```
 
-Navigate to the project directory:
-bash
-Copy code
+2. Navigate to the project directory:
+```bash
 cd react-tic-tac-toe
-Install dependencies using npm or yarn:
-bash
-Copy code
+```
+
+3. Install dependencies using npm or yarn:
+```bash
 npm install
 # or
 yarn install
-Start the development server:
-bash
-Copy code
+```
+
+4. Start the development server:
+```bash
 npm start
 # or
 yarn start
-Open your web browser and navigate to http://localhost:3000 to view the tic-tac-toe game.
-How to Play
+```
+
+5. Open your web browser and navigate to http://localhost:3000 to view the tic-tac-toe game.
+
+## How to Play
 Players take turns clicking on empty squares to mark them with their symbol.
 The first player to get three of their symbols in a row, column, or diagonal wins the game.
 If all squares are filled and no player has won, the game ends in a draw.
-Customization
+
+## Customization
 You can customize the players' names and symbols by editing the Player component in the Player.js file.
 
-Game Log
+## Game Log
 The Log component keeps track of each turn during the game. It displays the player's name and the selected square.
 
-jsx
-Copy code
-<Log turns={[]} />
-Game Board
+## Game Board
 The GameBoard component renders the 3x3 grid where players can select empty squares to make their moves.
 
-jsx
-Copy code
-<GameBoard onSelectSquare={() => {}} board={[]} />
-Game Over Screen
+## Game Over Screen
 The GameOver component displays a message when the game ends, indicating the winner or if it's a draw.
 
-jsx
-Copy code
-<GameOver winner="Player X" onRestart={() => {}} />
-Contributing
+## Contributing
 Contributions to this project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
