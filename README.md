@@ -20,6 +20,7 @@ To run this tic-tac-toe game locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/react-tic-tac-toe.git
+```
 
 Navigate to the project directory:
 bash
