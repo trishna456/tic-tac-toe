@@ -12,6 +12,13 @@ This is a simple tic-tac-toe game built using React. It allows two players to ta
 - Game over screen: Displays a message when the game ends, indicating the winner or if it's a draw.
 - Responsive design: The game interface adjusts to different screen sizes for a seamless experience on desktop and mobile devices.
 
+## Key Concepts and Implementation:
+- Component Modularity: I split components and built reusable components to ensure a clean and maintainable codebase, following the principle of component reusability.
+- State Management: Employed React's state management capabilities effectively, including working with state, updating state based on old state correctly, and avoiding intersecting states to ensure optimal performance and scalability.
+- Optimized State Management: Applied best practices to reduce state management overhead, such as preferring computed values over unnecessary state management and deriving state from props when appropriate.
+- Sharing State Across Components: Utilized techniques to share state across components efficiently, enhancing code readability and reducing redundancy.
+- Gameplay Logic: Implemented essential gameplay features such as tracking game progress, determining the winner, handling game over scenarios, and checking for draws, providing players with a seamless and immersive gaming experience.
+
 ## Getting Started
 
 To run this tic-tac-toe game locally, follow these steps:
